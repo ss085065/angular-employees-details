@@ -30,29 +30,29 @@ export class DemoWizardService {
   stepDefinitions: StepDefinition[] = [
     {
       title: 'Leanne',
-      description: 'Step 1 description',
+      description: 'Leanne\'s activity',
       component: StepOneComponent,
       canEnter: this.validateStep.bind(this, 'entry'),
       canExit: this.validateStep.bind(this, 'exit'),
     },
     {
       title: 'Ervin',
-      description: 'Step 2 description',
+      description: 'Ervin\'s activity',
       component: StepTwoComponent,
     },
     {
       title: 'Clementine',
-      description: 'Step 3 description',
+      description: 'Clementine\'s activity',
       component: StepThreeComponent,
     },
     {
       title: 'Patricia',
-      description: 'Step 4 description',
+      description: 'Patricia\'s activity',
       component: StepFourComponent,
     },
     {
       title: 'Chelsey',
-      description: 'Step 5 description',
+      description: 'Chelsey\'s activity',
       component: StepFiveComponent,
     },
   ];

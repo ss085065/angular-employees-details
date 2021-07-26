@@ -34,7 +34,7 @@ export class DemoWizardComponent implements OnInit {
 
     this.config.toolbarSettings.toolbarExtraButtons.push(
       {
-        text: 'Reset',
+        text: 'View All',
         class: 'btn btn-danger',
         event: this.resetWizard.bind(this)
       }
